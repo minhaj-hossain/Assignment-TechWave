@@ -173,6 +173,7 @@ body {
 
 .banner-outer-img {
   position: relative;
+
 }
 
 .banner-inner-img {
@@ -208,6 +209,7 @@ body {
 
 .about {
   /* margin: 50px 200px 120px; */
+  margin-top: 80px;
   flex-direction: column;
 }
 
@@ -261,6 +263,7 @@ footer {
 
 @media screen and (max-width: 576px) {
   /* nav styles  */
+
   .nav-links,
   .nav-btn {
     display: none;
@@ -272,6 +275,31 @@ footer {
   }
 
   /* banner section  */
+
+  .banner-container {
+    height: 450px;
+  }
+
+  .banner-circle img:first-child {
+    height: 200px;
+    width: 200px;
+  }
+
+  .banner-circle img:nth-child(2) {
+    width: 55px;
+  }
+
+  .badge {
+    right: -3.43%;
+  }
+
+  .banner-header {
+    font-size: 40px;
+  }
+
+  .banner-text {
+    padding-bottom: 0px;
+  }
 
   /* about section  */
 
