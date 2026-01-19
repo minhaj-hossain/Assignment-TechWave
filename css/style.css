@@ -133,7 +133,7 @@ body {
 /* banner section styles  */
 
 .banner-container {
-  /* width: 100%; */
+  width: 100%;
   height: 760px;
 
   background-image: url(../assets/hero-bg.png);
@@ -159,8 +159,6 @@ body {
   position: absolute;
   top: 3.43%;
   right: 6.57%;
-  /* top: 15.92%;
-  left: 55.82%; */
   z-index: 1;
 }
 
@@ -173,7 +171,6 @@ body {
 
 .banner-outer-img {
   position: relative;
-
 }
 
 .banner-inner-img {
@@ -259,6 +256,30 @@ footer {
   background-size: cover;
 }
 
+.footer-header {
+  font-size: 60px;
+}
+
+.footer-links {
+  gap: 40px;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 32px 0;
+}
+
+.footer-link > p {
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+.copyr {
+  opacity: 0.6;
+}
+
 /* for mobile  */
 
 @media screen and (max-width: 576px) {
@@ -278,6 +299,7 @@ footer {
 
   .banner-container {
     height: 450px;
+    width: 100%;
   }
 
   .banner-circle img:first-child {
@@ -326,6 +348,17 @@ footer {
 
   .stats-header {
     font-size: 40px;
+  }
+
+  /* footer styles  */
+
+  footer {
+    width: 575px;
+  }
+
+  .footer-bg {
+    height: 248px;
+    width: 100%;
   }
 }
 
