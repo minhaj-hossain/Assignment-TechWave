@@ -582,4 +582,26 @@ footer {
     gap: 40px;
     margin: 0px 50px 40px;
   }
+
+  /* why we choose section  */
+
+  .why-we-choose {
+    padding: 40px 20px;
+    margin: 40px 0;
+  }
+
+  .about-layout {
+    grid-template-rows: 225px 300px 320px;
+    gap: 15px;
+  }
+
+  .layout-padd {
+    padding: 20px;
+  }
+
+  /* feature section  */
+
+  .feature-header {
+    margin-top: 0;
+  }
 }
