@@ -423,6 +423,24 @@ footer {
   margin-top: 120px;
   margin-bottom: 120px;
 }
+.footer-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.footer-img {
+  background-image: url("../assets/Image.png");
+  width: 100%;
+  max-height: 410px;
+  aspect-ratio: 16 / 9;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer-header {
   font-size: 60px;
