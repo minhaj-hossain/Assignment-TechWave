@@ -614,8 +614,12 @@ footer {
     background-size: cover;
   }
 
+  .footer-header {
+    margin-bottom: 20px;
+  }
+
   .footer-links {
-    margin: 10px 0 35px;
+    /* margin: 10px 0 35px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -627,6 +631,10 @@ footer {
     width: 200px;
     margin-bottom: 16px;
     justify-content: center;
+  }
+
+  .copyr {
+    margin-top: 15px;
   }
 }
 
