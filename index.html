@@ -30,7 +30,9 @@
           <p>Host</p>
         </div>
 
-        <button class="nav-btn btn gradientBgc display-flex align-items">
+        <button
+          class="nav-btn btn gradientBgc display-flex align-items effect-btn"
+        >
           Subscribe<i class="fa-solid fa-arrow-right"></i>
         </button>
         <i class="fa-solid fa-bars" id="display-hidden"></i>
@@ -62,12 +64,14 @@
             </p>
             <div class="banner-btns display-flex">
               <button
-                class="banner-btn btn display-flex align-items gradientBgc"
+                class="banner-btn btn display-flex align-items gradientBgc effect-btn"
               >
                 <img src="./assets/spotify.png" alt="spotify logo" />Listen on
                 Spotify
               </button>
-              <button class="banner-btn2 btn display-flex align-items">
+              <button
+                class="banner-btn2 btn display-flex align-items effect-btn2"
+              >
                 <img src="./assets/message.png" alt="message logo" />Listen on
                 Spotify
               </button>
@@ -110,11 +114,11 @@
           </div>
         </section>
       </section>
-      <!-- why we choose section  -->
+      <!-- why we choose section with responsive layout -->
       <section class="why-we-choose">
         <h3 class="heading1 text-align">Why Choose TechWave</h3>
         <section class="about-layout max-width margin-auto">
-          <div class="audio cardGrid layout-padd gap cardBG">
+          <div class="audio cardGrid layout-padd gap cardBG effect-card">
             <img
               class="img-height"
               src="./assets/headphone.png"
@@ -127,7 +131,9 @@
               for optimal listening across all devices and platforms.
             </p>
           </div>
-          <div class="mobile-friendly cardGrid layout-padd gap cardBG">
+          <div
+            class="mobile-friendly cardGrid layout-padd gap cardBG effect-card"
+          >
             <img
               class="img-height"
               src="./assets/device.png"
@@ -140,7 +146,7 @@
             </p>
           </div>
 
-          <div class="globalC cardGrid layout-padd gap cardBG">
+          <div class="globalC cardGrid layout-padd gap cardBG effect-card">
             <img
               class="img-height"
               src="./assets/location.png"
@@ -151,7 +157,7 @@
               Connect with tech enthusiasts from over 120 countries worldwide.
             </p>
           </div>
-          <div class="exclusive cardGrid layout-padd gap cardBG">
+          <div class="exclusive cardGrid layout-padd gap cardBG effect-card">
             <img
               class="img-height"
               src="./assets/zap-fast.png"
@@ -165,7 +171,7 @@
               failures, and success strategies.
             </p>
           </div>
-          <div class="rich cardGrid layout-padd gap cardBG">
+          <div class="rich cardGrid layout-padd gap cardBG effect-card">
             <img
               class="img-height"
               src="./assets/resource.png"
@@ -179,11 +185,45 @@
           </div>
         </section>
       </section>
-      <!-- feature section  -->
+      <!-- feature section with responsive layout -->
       <section class="feature margin-auto max-width">
         <h3 class="feature-header heading1 text-align">Featured Episodes</h3>
         <section class="feature-cards">
-          <div class="feature-card">
+          <div class="feature-card effect-card">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/mrZ5qj26P7M?si=SxeXMG-GdxvEDob2"
+              title="YouTube video player"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            >
+              <div class="overlay"></div
+            ></iframe>
+
+            <div class="card-text display-flex flex-dir">
+              <h4 class="heading2">The Future of AI in Everyday Life</h4>
+              <p class="feature-card-para op6">
+                Exploring how artificial intelligence is transforming our daily
+                routines and what to expect in the next decade.
+              </p>
+              <div class="display-flex align-items feature-card-time">
+                <img src="./assets/clock.png" alt="clock" />
+                <p class="time">42 min</p>
+              </div>
+            </div>
+          </div>
+          <div class="feature-card effect-card">
             <iframe
               width="560"
               height="315"
@@ -215,39 +255,7 @@
               </div>
             </div>
           </div>
-          <div class="feature-card">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube-nocookie.com/embed/mrZ5qj26P7M?si=SxeXMG-GdxvEDob2"
-              title="YouTube video player"
-              frameborder="0"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-
-            <div class="card-text display-flex flex-dir">
-              <h4 class="heading2">The Future of AI in Everyday Life</h4>
-              <p class="feature-card-para op6">
-                Exploring how artificial intelligence is transforming our daily
-                routines and what to expect in the next decade.
-              </p>
-              <div class="display-flex align-items feature-card-time">
-                <img src="./assets/clock.png" alt="clock" />
-                <p class="time">42 min</p>
-              </div>
-            </div>
-          </div>
-          <div class="feature-card">
+          <div class="feature-card effect-card">
             <iframe
               width="560"
               height="315"
@@ -282,10 +290,10 @@
         </section>
       </section>
 
-      <!-- meet the host section  -->
+      <!-- meet the host section with responsive layout  -->
       <section class="meet-host max-width margin-auto">
         <h3 class="heading1 host-header text-align">Meet the Host</h3>
-        <div class="host-container display-flex align-items">
+        <div class="host-container display-flex align-items effect-card">
           <div class="left-img"><img src="./assets/host.png" alt="host" /></div>
           <div class="host-right-text display-flex flex-dir">
             <h4 class="heading2">Alex Kumar</h4>
@@ -322,7 +330,7 @@
         </div>
       </section>
     </main>
-
+    <!-- footer section completed with responsive layout  -->
     <footer class="footer-container">
       <div class="footer-img">
         <div class="footer-header heading1">

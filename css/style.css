@@ -17,6 +17,31 @@ body {
 
 /* shared styles  */
 
+.effect-btn:hover {
+  transform: translateY(-3px) scale(1.02);
+  background-position: 100% 50%;
+  box-shadow: 0 12px 30px rgba(255, 46, 166, 0.4);
+}
+
+.effect-btn2:hover {
+  transform: translateY(-3px) scale(1.02);
+  background-position: 100% 50%;
+  box-shadow: 0 12px 30px rgba(0, 255, 136, 0.4);
+}
+
+.effect-btn:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.effect-card:hover {
+  transform: translateY(-8px);
+  background: #23113d;
+  border-color: rgba(168, 85, 247, 0.4);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    0 0 20px rgba(168, 85, 247, 0.15);
+}
+
 .max-width {
   max-width: 1600px;
 }
@@ -330,7 +355,9 @@ body {
 
 .feature-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .feature-card {
@@ -396,13 +423,6 @@ footer {
   margin-top: 120px;
   margin-bottom: 120px;
 }
-.footer-bg {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  background-image: url(../assets/footer-bg.png);
-  background-position: center;
-  background-size: cover;
-}
 
 .footer-header {
   font-size: 60px;
@@ -431,6 +451,13 @@ footer {
 /* for mobile  */
 
 @media screen and (max-width: 576px) {
+  .heading1 {
+    font-size: 32px;
+  }
+
+  .heading2 {
+    font-size: 20px;
+  }
   /* nav styles  */
 
   .nav-links,
@@ -561,7 +588,6 @@ footer {
 
   /* footer styles  */
 
- 
   .footer-img {
     width: 100%;
     aspect-ratio: 16 / 9;
@@ -582,6 +608,7 @@ footer {
   .footer-link {
     width: 200px;
     margin-bottom: 16px;
+    justify-content: center;
   }
 }
 
